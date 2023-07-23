@@ -111,21 +111,6 @@
     <link type='text/css' rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"/>
     
     <script src="/gallery/libs/jquery/jquery.min.js"></script>
-    <!-- <script src="/js/foropensource.js"></script> -->
-    <script>
-        (function(){
-            var bp = document.createElement('script');
-            var curProtocol = window.location.protocol.split(':')[0];
-            if (curProtocol === 'https'){
-           bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-          }
-          else{
-          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-          }
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(bp, s);
-        })();
-    </script>
 <meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/gallery/atom.xml" title="itsNeko博客开源版" type="application/atom+xml">
 <link rel="stylesheet" href="/gallery/css/prism-tomorrow.css" type="text/css"></head>
 
@@ -815,11 +800,11 @@ class="themespring" -->
         background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
     }
     @font-face {
-        font-family: "华文行楷";
-        src: url('/fonts/华文行楷.ttf');
+        font-family: "Default";
+        src: url('/fonts/Default.ttf');
     }
     .deng-t {
-        font-family: 华文行楷;
+        font-family: Default;
         font-size: 26px;
         color: #dc8f03;
         font-weight: bold;
@@ -1165,7 +1150,7 @@ class="themespring" -->
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"itsNeko博客食用方法","value":1},{"name":"技术","value":1},{"name":"随笔","value":1}],
+                data: [{"name":"itsNeko博客食用方法","value":1},{"name":"随笔","value":1},{"name":"技术","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -1189,7 +1174,7 @@ class="themespring" -->
         xAxis: [
             {
                 type: 'category',
-                data: ["关于itsNeko开源博客","技术","随笔"]
+                data: ["关于itsNeko开源博客","随笔","技术"]
             }
         ],
         yAxis: [
@@ -1462,10 +1447,6 @@ $(function () {
     <script src="/gallery/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/gallery/js/matery.js"></script>
     
-    <!-- Baidu Analytics -->
-
-    <!-- Baidu Push -->
-
     
     
 
