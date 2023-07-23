@@ -150,21 +150,6 @@ class="themespring" -->
     </a>
     <!-- 网站全局深色模式设置结束 -->
 
-    <!-- 网站主题切换模式开始 -->
-    <!-- 中国节日按钮开始 -->
-    <script>
-        if (localStorage.getItem('themespring') === '1') {
-            document.body.classList.add('themespring');
-        }
-        else if (matchMedia('(prefers-color-scheme: themespring)').matches) {
-            document.body.classList.add('themespring');
-        }
-    </script>
-    <div onclick="switchSpringThemes()" id="switchspring">
-        <img class="chunjiepic" src="/medias/spring-img/denglong.png" title="春节主题" />
-    </div>
-    <!-- 中国节日按钮结束  -->
-    <!-- 网站主题切换模式结束 -->
 
     <!-- header模块开始 -->
 <header class="navbar-fixed" id="header-active">
