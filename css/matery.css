@@ -3374,7 +3374,7 @@ body.themechris .bg-cover::before {
     background-image: none;
 }
 .bg-cover::before {
-    background-image: url(/medias/bggrid.png);
+    background-image: url("/medias/bggrid.png");
 }
 body.dark .mohuxiaoguo {
     display: none;
@@ -3808,15 +3808,6 @@ body.dark #artDetail .v[data-class=v] .vcards {
 }
 
 /* 小花花背景图开始 */
-/* .card
-    {
-        background: url(https://7.dusays.com/2021/01/15/468a1f5ef9a69.png) top!important;
-    }
-    body.dark .card
-    {
-        background: url(https://7.dusays.com/2021/01/15/1313017cd1a15.png) top!important;
-    } */
-/* 小花花背景图结束 */
 
 /* 旋转小樱花按钮 */
 body.dark .yinghua {
@@ -3918,5 +3909,5 @@ nav,
 .nav-menu li .sub-nav, 
 .menus_item_child:before
 {
-  background-color: #039be5;
+  background-color: #2f3233;
 }
