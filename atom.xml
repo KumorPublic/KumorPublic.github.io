@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>itsNeko博客开源版</title>
+  <title>拾暮映畫，撫今追昔</title>
   
-  
+  <subtitle>わたしのおとぎ話の街</subtitle>
   <link href="https://kumor00.github.io/gallery/atom.xml" rel="self"/>
   
   <link href="https://kumor00.github.io/gallery/"/>
@@ -10,7 +10,7 @@
   <id>https://kumor00.github.io/gallery/</id>
   
   <author>
-    <name>itsNeko博客开源版</name>
+    <name>kumor00</name>
     
   </author>
   
