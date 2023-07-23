@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kumor00.github.io/gallery/vote/index.html</loc>
+    <loc>https://kumor00.github.io/gallery/videos/index.html</loc>
     
     <lastmod>2023-07-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://kumor00.github.io/gallery/videos/index.html</loc>
+    <loc>https://kumor00.github.io/gallery/vote/index.html</loc>
     
     <lastmod>2023-07-22</lastmod>
     
@@ -37,14 +37,14 @@
   </url>
   
   <url>
-    <loc>https://kumor00.github.io/gallery/project/index.html</loc>
+    <loc>https://kumor00.github.io/gallery/qingdan/index.html</loc>
     
     <lastmod>2023-07-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://kumor00.github.io/gallery/qingdan/index.html</loc>
+    <loc>https://kumor00.github.io/gallery/project/index.html</loc>
     
     <lastmod>2023-07-22</lastmod>
     
@@ -128,14 +128,14 @@
   </url>
   
   <url>
-    <loc>https://kumor00.github.io/gallery/books/index.html</loc>
+    <loc>https://kumor00.github.io/gallery/about/index.html</loc>
     
     <lastmod>2023-07-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://kumor00.github.io/gallery/about/index.html</loc>
+    <loc>https://kumor00.github.io/gallery/books/index.html</loc>
     
     <lastmod>2023-07-22</lastmod>
     
@@ -186,14 +186,14 @@
   </url>
   
   <url>
-    <loc>https://kumor00.github.io/gallery/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://kumor00.github.io/gallery/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://kumor00.github.io/gallery/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://kumor00.github.io/gallery/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -209,14 +209,14 @@
   </url>
   
   <url>
-    <loc>https://kumor00.github.io/gallery/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://kumor00.github.io/gallery/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://kumor00.github.io/gallery/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://kumor00.github.io/gallery/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
