@@ -244,6 +244,11 @@ mark {
     background-image: linear-gradient(to right, #313331 0%, #272928 100%);
 }
 
+/*修复顶部导航栏颜色被覆盖问题*/
+.nav {
+    background-color: transparent;
+}
+
 .text-color {
     color: #0f9d58 !important;
 }
