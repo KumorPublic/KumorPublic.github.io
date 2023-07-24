@@ -2122,9 +2122,13 @@ body.dark header .side-nav .menu-list .m-nav-show
 body.dark .aplayer{
     opacity: 0.9;
 }
+/*  
+ 图片变黑滤镜
 body.dark img, body.dark strong {
     filter: brightness(.7);
 }
+*/
+
 /* 深色模式按钮设置 */
 #sma {
     background: #000;
