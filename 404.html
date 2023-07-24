@@ -130,7 +130,7 @@
                         404
                     </div>
                     <div class="description center-align">
-                        Oops～，我崩溃了！找不到你想要的页面 :(
+                        Oops～，在找啥呢
                     </div>
                 </div>
             </div>
@@ -140,11 +140,12 @@
 
 
     <script>
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "/gallery/medias/banner/" + new Date().getDay() + '.jpg';
+        // 随机切换 banner 图. 
+        var bannerID = Math.floor(Math.random() * 7) + 1;
+        var bannerUrl = "/gallery/medias/banner/" + bannerID + '.webp';
         $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
     </script>
-
+    
 
 <!-- 
     在所有页面加入音乐播放组件
