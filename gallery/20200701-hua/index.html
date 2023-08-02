@@ -17,20 +17,20 @@
 
 
     <title>桃之夭夭，灼灼其华 | Kumor Tavern</title>
-    <link rel="icon" type="image/png" href="/gallery/medias/favicon.webp">
+    <link rel="icon" type="image/png" href="/medias/favicon.webp">
 
-    <link rel="stylesheet" type="text/css" href="/gallery/libs/awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="/gallery/libs/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="/gallery/libs/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="/gallery/libs/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/gallery/libs/lightGallery/css/lightgallery.min.css"> 
-    <link rel="stylesheet" type="text/css" href="/gallery/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="/gallery/css/my.css">
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css"> 
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
 
-    <script src="/gallery/libs/jquery/js/jquery.min.js"></script>
+    <script src="/libs/jquery/js/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/gallery/atom.xml" title="Kumor Tavern" type="application/atom+xml">
-<link rel="stylesheet" href="/gallery/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/atom.xml" title="Kumor Tavern" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
@@ -47,9 +47,9 @@
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
-                <a href="/gallery/" class="waves-effect waves-light">
+                <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/gallery/medias/logo.webp" class="logo-img" alt="LOGO">
+                    <img src="/medias/logo.webp" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">Kumor Tavern</span>
                 </a>
@@ -61,7 +61,7 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/gallery/./" class="waves-effect waves-light">
+    <a href="/./" class="waves-effect waves-light">
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
@@ -78,7 +78,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/gallery/medias/logo.webp" class="logo-img circle responsive-img">
+        <img src="/medias/logo.webp" class="logo-img circle responsive-img">
         
         <div class="logo-name">Kumor Tavern</div>
         <div class="logo-desc">
@@ -94,7 +94,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/gallery/./" class="waves-effect waves-light">
+		<a href="/./" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-home"></i>
 			
@@ -117,7 +117,7 @@
 
     <!-- 加密功能 /libs/cryptojs/crypto-js.min.js-->
 
-    <script src="/gallery/libs/cryptojs/crypto-js.min.js"></script>
+    <script src="/libs/cryptojs/crypto-js.min.js"></script>
     <script>
         (function() {
             let pwd = '';
@@ -125,7 +125,7 @@
             if (pwd && pwd.length > 0) {
                 if (pwd !== CryptoJS.SHA256(prompt('请输入密码才可访问哒~')).toString(CryptoJS.enc.Hex)) {
                     alert('密码错误哦，将返回相册页面哦~');
-                    location.href = '/gallery/gallery';
+                    location.href = '/gallery';
                 }
             }
         })();
@@ -146,7 +146,7 @@
             <div class="description center-align">
                 
                 <span id="subtitle"></span>
-                <script src="/gallery/libs/typed/js/typed.min.js"></script>
+                <script src="/libs/typed/js/typed.min.js"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
                         strings: ['ᛗᛃ᛫ᚠᚫᛁᚱᛇ᛫ᛏᚫᛚᛖ᛫ᛏᛟᚹᚾ','わたしのおとぎ話の街'],
@@ -167,7 +167,7 @@
     <script>
         // 随机切换 banner 图. 
         var bannerID = Math.floor(Math.random() * 44) + 1;
-        var bannerUrl = "/gallery/medias/banner/" + bannerID + '.webp';
+        var bannerUrl = "/medias/banner/" + bannerID + '.webp';
         $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
     </script>
     
@@ -178,25 +178,25 @@
 <!-- <link rel="stylesheet" href="/libs/lightGallery/css/lightgallery.min.css">-->
 <!-- 该主题自带的lightGallery.js在图片多的时候会很卡，所以弃用，使用了一个我在网上找的baguetteBox，很轻量级，就是功能少了点 -->
 <!--<script src=""></script> -->
-<!-- <link rel="stylesheet" type="text/css" href="/gallery/libs/lightGallery/css/lightgallery.min.css"> -->
-<!-- <script src="/gallery/libs/lightGallery/js/lightgallery.min.js"></script> -->
-<!-- <script src="/gallery/libs/jquery/js/jquery.min.js"></script>  -->
+<!-- <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css"> -->
+<!-- <script src="/libs/lightGallery/js/lightgallery.min.js"></script> -->
+<!-- <script src="/libs/jquery/js/jquery.min.js"></script>  -->
 
-<link rel="stylesheet" href="/gallery/libs/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="/gallery/libs/jquery/css/justifiedGallery.min.css">
-<script src="/gallery/libs/jquery/js/jquery.min.js"></script> 
-<script src="/gallery/libs/jquery/js/jquery.justifiedGallery.min.js"></script>
+<link rel="stylesheet" href="/libs/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/libs/jquery/css/justifiedGallery.min.css">
+<script src="/libs/jquery/js/jquery.min.js"></script> 
+<script src="/libs/jquery/js/jquery.justifiedGallery.min.js"></script>
 <!-- 
 
 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery-core.min.css">
  -->
 
- <link rel="stylesheet" type="text/css" href="/gallery/libs/lightGallery/css/lightgallery.min.css"> 
+ <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css"> 
 <!--  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
  -->
-<script src="/gallery/libs/lightGallery/js/lightgallery.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery.min.js"></script>
 
 <!--  缩放插件和缩略图插件，用不到 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lg-zoom.css">
@@ -679,7 +679,7 @@
     在所有页面加入音乐播放组件
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/gallery/libs/aplayer/APlayer.min.css">
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
 <style>
     .aplayer .aplayer-lrc p {
         
@@ -729,7 +729,7 @@
     </div>
 </div>
 
-<script src="/gallery/libs/aplayer/APlayer.min.js"></script>
+<script src="/libs/aplayer/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 
     
@@ -744,18 +744,16 @@
 </div>
 
 
-    <script src="/gallery/libs/materialize/materialize.min.js"></script>
-    <script src="/gallery/libs/masonry/masonry.pkgd.min.js"></script>
-    <script src="/gallery/libs/aos/aos.js"></script>
-    <script src="/gallery/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="/gallery/libs/lightGallery/js/lightgallery.min.js"></script>
-    <script src="/gallery/js/matery.js"></script>
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery.min.js"></script>
+    <script src="/js/matery.js"></script>
 
 
     
-    <script src="/gallery/libs/others/clicklove.js" async="async"></script>
-    
-
+    <script src="/libs/others/clicklove.js" async="async"></script>
     
 
     
@@ -763,7 +761,9 @@
     
 
     
-    <script src="/gallery/libs/instantpage/instantpage.js" type="module"></script>
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
 </body>

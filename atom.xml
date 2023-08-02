@@ -3,11 +3,11 @@
   <title>Kumor Tavern</title>
   
   <subtitle>時間の記憶</subtitle>
-  <link href="https://kumor00.github.io/gallery/atom.xml" rel="self"/>
+  <link href="https://blog.kumor.cc/atom.xml" rel="self"/>
   
-  <link href="https://kumor00.github.io/gallery/"/>
+  <link href="https://blog.kumor.cc/"/>
   <updated>2023-07-23T03:10:13.258Z</updated>
-  <id>https://kumor00.github.io/gallery/</id>
+  <id>https://blog.kumor.cc/</id>
   
   <author>
     <name>kumor00</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>HelloWorld</title>
-    <link href="https://kumor00.github.io/gallery/posts/6053.html"/>
-    <id>https://kumor00.github.io/gallery/posts/6053.html</id>
+    <link href="https://blog.kumor.cc/posts/6053.html"/>
+    <id>https://blog.kumor.cc/posts/6053.html</id>
     <published>2023-07-23T03:09:51.000Z</published>
     <updated>2023-07-23T03:10:13.258Z</updated>
     
